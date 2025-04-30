@@ -74,6 +74,12 @@ h1 span {
   transform: translate(-50%, -50%);
 }
 
+@media screen and (max-width: 580px) {
+  .btn-icon {
+    width: 380px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .header .logo img {
     width: 90px;
@@ -95,15 +101,5 @@ h1 span {
     font-size: 6px;
     letter-spacing: 3px;
     margin-top: 0px;
-  }
-}
-
-@media screen and (max-width: 590px) {
-  .header .logo img {
-    width: 130px;
-    margin-bottom: 0px;
-  }
-  .btn-icon {
-    width: 400px;
   }
 }
